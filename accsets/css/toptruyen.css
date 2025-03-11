@@ -1,0 +1,39 @@
+/* Tiêu đề */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-tabs .nav-link.active {
+  background: #007bff;
+  color: white;
+}
+
+/* Card truyện */
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Nút xem truyện */
+.btn-primary {
+  width: 100%;
+  font-weight: bold;
+}

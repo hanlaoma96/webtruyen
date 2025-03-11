@@ -1,0 +1,36 @@
+/* Tiêu đề */
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Nội dung chương */
+.chapter-box {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Điều hướng chương */
+.chapter-nav .btn {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Danh sách chương */
+.list-group-item {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.list-group-item a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

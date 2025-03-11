@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Truyen Full - Trang Đọc Truyện Hay</title>
+
+    <!-- Font & Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./accsets/css/style.css" />
+<link rel="stylesheet" href="./accsets/css/">
+    <!-- JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- Thanh Điều Hướng -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img width="50" src="./accsets/img/logo.jpg" alt="logo" />
+          Truyen Full
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Trang Chủ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="theloaiDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Thể Loại Truyện
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./theloai.html">Hành Động</a></li>
+                <li><a class="dropdown-item" href="#">Phiêu Lưu</a></li>
+                <li><a class="dropdown-item" href="#">Tình Cảm</a></li>
+                <li><a class="dropdown-item" href="#">Hài Hước</a></li>
+                <li><a class="dropdown-item" href="#">Kinh Dị</a></li>
+                <li><a class="dropdown-item" href="#">Trinh Thám</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="toptruyen.html">Top Truyện</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Tìm kiếm..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <div class="ms-3">
+            <a href="dangky.html" class="btn btn-primary">Đăng Ký</a>
+            <a href="dangnhap.html" class="btn btn-success">Đăng Nhập</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Nội dung chính -->
+    <div class="container mt-4">
+      <h2 class="mb-3">Truyện Đề Cử</h2>
+      <div id="truyenCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row">
+                      <div class="col-md-2">
+                          <div class="card">
+                              <img src="./accsets/img/truyen (9).webp" class="card-img-top" alt="Truyện 1">
+                              <div class="card-body">
+                                  <h6 class="card-title text-center">Truyện 1</h6>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-2">
+                          <div class="card">
+                              <img src="./accsets/img/truyen (8).webp" class="card-img-top" alt="Truyện 2">
+                              <div class="card-body">
+                                  <h6 class="card-title text-center">Truyện 2</h6>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-2">
+                          <div class="card">
+                              <img src="./accsets/img/truyen (7).webp" class="card-img-top" alt="Truyện 3">
+                              <div class="card-body">
+                                  <h6 class="card-title text-center">Truyện 3</h6>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-2">
+                          <div class="card">
+                              <img src="./accsets/img/truyen (6).webp" class="card-img-top" alt="Truyện 4">
+                              <div class="card-body">
+                                  <h6 class="card-title text-center">Truyện 4</h6>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-2">
+                          <div class="card">
+                              <img src="./accsets/img/truyen (5).webp" class="card-img-top" alt="Truyện 5">
+                              <div class="card-body">
+                                  <h6 class="card-title text-center">Truyện 5</h6>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-2">
+                          <div class="card">
+                              <img src="./accsets/img/truyen (4).webp" class="card-img-top" alt="Truyện 6">
+                              <div class="card-body">
+                                  <h6 class="card-title text-center">Truyện 6</h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Có thể thêm nhiều carousel-item nếu danh sách truyện dài -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#truyenCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#truyenCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+      </div>
+  </div>
+  
+      <div class="container mt-5">
+        <!-- Truyện Mới Nhất -->
+        <h2 class="text-primary">Truyện Mới Nhất</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./accsets/img/truyen (3).webp"
+                class="card-img-top"
+                alt="Truyện 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Phàm Nhân Tu Tiên</h5>
+                <p class="card-text">Chapter 69 - 14 phút trước</p>
+                <a href="#" class="btn btn-primary">Đọc ngay</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./accsets/img/truyen (2).webp"
+                class="card-img-top"
+                alt="Truyện 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sát Thủ Mạnh Nhất</h5>
+                <p class="card-text">Chapter 73 - 22 phút trước</p>
+                <a href="#" class="btn btn-primary">Đọc ngay</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./accsets/img/truyen (1).jpg"
+                class="card-img-top"
+                alt="Truyện 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chàng Rể Mạnh Nhất</h5>
+                <p class="card-text">Chapter 280 - 1 giờ trước</p>
+                <a href="#" class="btn btn-primary">Đọc ngay</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

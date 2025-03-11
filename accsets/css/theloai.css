@@ -1,0 +1,28 @@
+/* Căn chỉnh tiêu đề */
+#category-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Card truyện */
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Nút đọc ngay */
+.btn-primary {
+  width: 100%;
+  font-weight: bold;
+}

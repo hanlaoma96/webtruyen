@@ -1,0 +1,34 @@
+/* Tiêu đề */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Ảnh bìa truyện */
+.img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Nút đọc ngay */
+.btn-success {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Danh sách chương */
+.list-group-item {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.list-group-item a:hover {
+  color: #094f9b;
+  text-decoration: underline;
+}
