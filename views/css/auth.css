@@ -1,0 +1,97 @@
+/* Cơ bản thiết lập cho body và các phần tử */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Tiêu đề của form */
+h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Cải thiện các trường input */
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+/* Màu sắc khi hover hoặc focus vào input */
+.form-control:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Nút đăng nhập */
+.btn {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Liên kết đăng ký */
+.mt-3 {
+  text-align: center;
+  font-size: 14px;
+}
+
+.mt-3 a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.mt-3 a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design cho thiết bị di động */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+}

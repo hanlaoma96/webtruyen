@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'b21582ad147496de2caf5e37fc6d3ababc79c78d',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'b21582ad147496de2caf5e37fc6d3ababc79c78d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'firebase/php-jwt' => array(
+            'pretty_version' => 'v6.11.0',
+            'version' => '6.11.0.0',
+            'reference' => '8f718f4dfc9c5d5f0c994cdfd103921b43592712',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../firebase/php-jwt',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ircmaxell/password-compat' => array(
+            'pretty_version' => 'v1.0.4',
+            'version' => '1.0.4.0',
+            'reference' => '5c5cde8822a69545767f7c7f3058cb15ff84614c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ircmaxell/password-compat',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

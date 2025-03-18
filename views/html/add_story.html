@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thêm Truyện</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Thêm Truyện Mới</h2>
+    <form id="addTruyenForm">
+      <label for="title">Tên truyện:</label>
+      <input type="text" id="title" required />
+
+      <label for="description">Mô tả:</label>
+      <textarea id="description" required></textarea>
+
+      <label for="author">Tác giả:</label>
+      <input type="text" id="author" required />
+
+      <label for="cover">Ảnh bìa:</label>
+      <input type="file" id="cover" accept="image/*" required />
+
+      <button type="submit">Thêm Truyện</button>
+    </form>
+
+    <p id="messageBox" class="message"></p>
+
+    <script src="/./admin/js/upload_img.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "so_chuong": 1,
+    "ten_chuong": "Hành trình bắt đầu",
+    "noi_dung": "Một buổi sáng đẹp trời, nhân vật chính thức dậy và bắt đầu cuộc phiêu lưu của mình.",
+    "thoi_gian_dang": "2025-03-16 08:00:00"
+}
