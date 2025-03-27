@@ -27,3 +27,28 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((error) => console.error("Lỗi khi lấy dữ liệu:", error));
 });
+// Lấy nút bật/tắt
+const toggleButton = document.getElementById("toggleButton");
+// Lấy body để thêm/xóa lớp dark-mode
+const body = document.body;
+
+// Kiểm tra trạng thái đã lưu trong localStorage
+const savedMode = localStorage.getItem("theme");
+if (savedMode === "dark") {
+  body.classList.add("dark-mode");
+  toggleButton.textContent = "Chuyển sang chế độ sáng";
+}
+
+// Xử lý sự kiện khi nhấn nút
+toggleButton.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+
+  // Cập nhật văn bản nút và lưu trạng thái
+  if (body.classList.contains("dark-mode")) {
+    toggleButton.textContent = "Chuyển sang chế độ sáng";
+    localStorage.setItem("theme", "dark");
+  } else {
+    toggleButton.textContent = "Chuyển sang chế độ tối";
+    localStorage.setItem("theme", "light");
+  }
+});

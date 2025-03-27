@@ -20,5 +20,5 @@ $chapter = new Chapter($conn);
 $truyen_id = $_GET['truyen_id'];
 
 $chapters = $chapter->getAll($truyen_id);
-echo json_encode(["status" => "success", "data" => $chapters]);
+echo json_encode(["status" => "success", "data" => $chapters], JSON_UNESCAPED_UNICODE);
 ?>

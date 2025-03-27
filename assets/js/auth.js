@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   submitBtn.addEventListener("click", async () => {
     const url = isLogin
-      ? "http://localhost/backend/login.php"
-      : "http://localhost/backend/register.php";
+      ? "http://localhost:888/trangwebtutien/backend/api/login.php"
+      : "http://localhost:888/trangwebtutien/backend/api/register.php";
     const data = {
       username: username.value,
       password: password.value,
